@@ -62,7 +62,7 @@ export default function App() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-maroon shadow-lg py-3' : 'bg-transparent py-5'}`}>
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-           <img src="src/habibalogo.jpeg" alt="Habiba Catering Logo" className="h-12 md:h-16 lg:h-24 w-auto"/>
+           <img src="/habibalogo.jpeg" alt="Habiba Catering Logo" className="h-12 md:h-16 lg:h-24 w-auto"/>
             
           </div>
 
